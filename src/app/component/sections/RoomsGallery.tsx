@@ -62,7 +62,7 @@ function RoomsGallery() {
         <div id="RoomsGalleryId" className="2xl:px-27 flex flex-col 2xl:gap-40 gap-30 max-md:gap-20 ">
             <HeaderSection data={data1} />
             <div className="flex flex-col gap-50">
-                <div className="flex gap-5 flex-nowrap justify-center overflow-x-auto pb-5 scroll-smooth pl-10">
+                <div className="flex gap-5 flex-nowrap justify-center max-[1050px]:justify-start overflow-x-auto pb-5 scroll-smooth pl-10">
                     {data3.map((Y) => (
                         <button
                             key={Y}
